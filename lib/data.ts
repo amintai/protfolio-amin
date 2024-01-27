@@ -26,12 +26,12 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 export const skills = [
   {
-    icon: SiTypescript,
-    text: "TypeScript",
-  },
-  {
     icon: SiJavascript,
     text: "JavaScript",
+  },
+  {
+    icon: SiTypescript,
+    text: "TypeScript",
   },
   {
     icon: SiReact,
@@ -50,10 +50,6 @@ export const skills = [
     text: "Redux",
   },
   {
-    icon: SiFlutter,
-    text: "Flutter",
-  },
-  {
     icon: SiHtml5,
     text: "HTML5",
   },
@@ -68,14 +64,6 @@ export const skills = [
   {
     icon: SiExpress,
     text: "Express",
-  },
-  {
-    icon: SiPython,
-    text: "Python",
-  },
-  {
-    icon: BiLogoPostgresql,
-    text: "PostgreSQL",
   },
   {
     icon: SiMongodb,
@@ -168,53 +156,71 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
-    company: "Company 3",
-    logo: "/company-logo.png",
-    position: "Company 3 Position",
-    description: "Write briefly on your experience working at Company 3.",
-    years: "Apr, 2022 - Aug, 2023",
+    company: "Tntra",
+    logo: "https://www.tntra.io/img/logo_black.svg",
+    position: "Assosicate Software Engineer",
+    description: `Understanding the business logic to deliver the technical
+    requirements and debugging ﬁxing bugs.
+    Improved existing project’s performance by 30% for mobile
+    devices by implementing various optimization techniques in Next
+    JS, enhancing page and rendering speed for optimal performance.
+    Engaged in multiple projects, aiding colleagues in debugging and
+    identifying root causes, actively contributing to the enhancement
+    of existing code bases.`,
+    years: "Oct, 2021 - May, 2023",
   },
   {
-    company: "Company 2",
-    logo: "/company-logo.png",
-    position: "Company 2 Position",
-    description: "Write briefly on your experience working at Company 2.",
-    years: "Jan, 2020 - Mar, 2022",
+    company: "Tntra",
+    logo: "https://www.tntra.io/img/logo_black.svg",
+    position: "Software Engineer L2",
+    description: `Collaborated closely with stakeholders and Product Owner teams,
+    contributing to estimating, strategizing approaches, and solving
+    intricate business challenges.
+    Developed reusable UI components, including Editable Grids,
+    Paginate Dropdowns, and S3 Bucket Image Upload components,
+    for a custom ERP solution which reduces the Overall
+    Development Eﬀorts by 100%.
+    Improvised the performance of an existing React Application by
+    Implementing Various Optimization Techniques.
+    Provided guidance, solutions, and debugging assistance while
+    reviewing PRs and monitoring the codebase for optimal
+    performance.`,
+    years: "Jun, 2023 - Present",
   },
   {
-    company: "Company 1",
-    logo: "/company-logo.png",
-    position: "Company 1 Position",
-    description: "Write briefly on your experience working at Company 1.",
-    years: "Aug, 2018 - Sep, 2018",
-  },
-  {
-    company: "Uni Name",
+    company: "Babaria Institute Of Technology",
     logo: "/company-logo.png",
     position: "Student",
-    description:
-      "Write briefly about your university experience (degree, subject, etc.)",
-    years: "Aug, 2015 - Jun, 2019",
+    description: `Programming: Proficient in Python, [Other Languages]
+    OOPs Concepts: Strong understanding and practical application
+    Engineering Practices: Hands-on experience in real-world scenarios
+    Networking and OS: In-depth knowledge of computer networks and operating systems
+    Android Development: Skills in mobile app development
+    `,
+    years: "Aug, 2017 - Sep, 2021",
   },
 ];
 
 export const aboutYou = {
-  name: "Your Name",
+  name: "Amin Tai",
   description:
-    "👋 Hi, I'm Random Person. Developer. I'm passionate about.... This is a short description about yourself.... goes in the left sidebar of the landing page.",
-  yearsOfExperience: "x years",
-  location: "Your Place",
-  email: "email@example.com",
+    "👋 Hi, I'm Amin. Frontend Developer. I'm passionate about Building side projects, solving problemsl. I've been working with JavaScript and It's frameworks from mostly React and React Native.",
+  yearsOfExperience: "2.5 years",
+  location: "Vadodara, India",
+  email: "amintai157@gmail.com",
+  mobile: '+91 8141759119',
+  github: 'https://github.com/amintai',
+  linkedIn: 'https://www.linkedin.com/in/amintai'
 };
 
-export const logoText = "@yourname";
+export const logoText = "@amin";
 
 export const marketingHeadlines = {
-  mainHeadline: "This is the MAIN headline.",
-  subHeadline: "Bottom. Sub. Headline.",
+  mainHeadline: "Hi, I'm Amin Tai, React and React Native Developer",
+  subHeadline: "I have 2.5 years of experience in JavaScript and it's Framworks.",
 };
 
 export const websiteMetadata = {
-  title: "Your Name | Designation",
+  title: "Amin Tai | Software Engineer",
   description: "👋 Hey, Random Person here. Welcome to my portflio/blog.",
 };

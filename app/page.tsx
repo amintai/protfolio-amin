@@ -1,5 +1,4 @@
 import ActionButton from "@/components/action-button";
-import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import ProjectShowcase from "@/components/project-showcase";
 import Sidebar from "@/components/sidebar";
@@ -96,14 +95,17 @@ export default function Home() {
             <h2 className="text-2xl font-semibold tracking-tight">Contact</h2>
             <div className="mt-5 rounded-xl border bg-card text-card-foreground shadow">
               <p className="p-6 text-sm text-muted-foreground">
-                Best way to reach me is through:{" "}
-                <a href={`mailto:${aboutYou.email}`}>{aboutYou.email}</a>
+                Best way to reach me is through:{" "} <br/> <br />
+                <strong>Email: </strong> <a href={`mailto:${aboutYou.email}`}>{aboutYou.email}</a> <br />
+                <strong>Mobile No: </strong> <a href={`tel:${aboutYou.mobile}`}>{aboutYou.mobile}</a> <br />
+                <strong>Github : </strong> <a href={aboutYou.github}>{aboutYou.github}</a> <br />
+                <strong>LinkedIn : </strong> <a href={aboutYou.linkedIn}>{aboutYou.linkedIn}</a> <br />
+
               </p>
             </div>
           </section>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
