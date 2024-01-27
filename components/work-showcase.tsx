@@ -22,7 +22,7 @@ export default function WorkShowcase({
               <AvatarFallback>AB</AvatarFallback>
             </Avatar>
             <h3 className="font-semibold leading-none tracking-tight">
-              {experience.company}
+              {experience.company} : {experience.position}
             </h3>
           </div>
           <DateRange date={experience.years} />
