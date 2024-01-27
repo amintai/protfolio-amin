@@ -22,7 +22,7 @@ export default function ProjectShowcase({ project }: ProjectShowcaseProps) {
           </h3>
           <ExternalLink height={15} width={15} />
         </div>
-        <p className="text-sm text-muted-foreground">{project.description}</p>
+        <p className="text-sm text-muted-foreground"><strong>Tech Stack: </strong>{project.description}</p>
       </div>
     </div>
   );

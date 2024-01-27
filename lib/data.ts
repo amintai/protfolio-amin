@@ -115,13 +115,13 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project 1",
-    description: "Give a short description about project 1",
-    link: "https://github.com/",
+    title: "1000Farmacie",
+    description: "JavaScript, Next JS, React Bootstrap, AWS, Git/Github, Stripe, Ruby on Rails, MySql",
+    link: "https://www.1000farmacie.it/",
   },
   {
-    title: "Project 2",
-    description: "Give a short description about project 2",
+    title: "Diamond ERP ",
+    description: "React, Redux, AntD, Formik, TypeScript, Python, Django, PostgresSql",
     link: "https://github.com/",
   },
   {
