@@ -3,13 +3,13 @@
 import { Button } from "./ui/button";
 import Logo from "./logo";
 import { ModeToggle } from "./mode-toggle";
-import { Home, Briefcase, Mail, Presentation } from "lucide-react";
+import { Home, Briefcase, Mail, Presentation, BookMarked, Gift } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function Navbar() {
   const router = useRouter();
-  const [{pathName},setState] = useState({
+  const [{ pathName }, setState] = useState({
     pathName: '/'
   });
 
@@ -55,6 +55,15 @@ export default function Navbar() {
           <span className="hidden md:block ml-2">Work</span>
         </Button>
         <Button
+          onClick={() => navigateTo("/#blogs")}
+          variant="outline"
+          size="sm"
+          className={`ml-auto h-8 ${pathName === '/#blogs' ? 'bg-black text-white' : ''} `}
+        >
+          <BookMarked className=" h-4 w-4" />
+          <span className="hidden md:block ml-2">Blogs & Achievements</span>
+        </Button>
+        <Button
           onClick={() => navigateTo("/#contact")}
           variant="outline"
           size="sm"
@@ -63,6 +72,8 @@ export default function Navbar() {
           <Mail className=" h-4 w-4" />
           <span className="hidden md:block ml-2">Contact</span>
         </Button>
+
+
         <ModeToggle />
       </div>
     </div>

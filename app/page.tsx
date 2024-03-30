@@ -5,11 +5,14 @@ import Sidebar from "@/components/sidebar";
 import SkillOutline from "@/components/skill-outline";
 import { Separator } from "@/components/ui/separator";
 import WorkShowcase from "@/components/work-showcase";
+import BlogShowCase from "@/components/blogs-showcase";
 
 import {
+  Blogs,
   Project,
   WorkExperience,
   aboutYou,
+  blogs,
   marketingHeadlines,
   projects,
   skills,
@@ -89,13 +92,28 @@ export default function Home() {
                 )}
               </div>
             </div>
+          </section >
+
+          {/*BLGOS*/}
+          <section id="blogs" key="blogs">
+            <h2 className="text-2xl font-semibold tracking-tight">Blogs & Achievements</h2>
+            <div>
+              <div className="space-y-5 mt-5">
+                {blogs.map((item: Blogs, index: number) => {
+                  console.log("💥 ~ item:", item)
+                  return (
+                    <BlogShowCase blog={item} key={index} />
+                  )
+                })}
+              </div>
+            </div>
           </section>
           {/* Contact */}
           <section id="contact" key="contact">
             <h2 className="text-2xl font-semibold tracking-tight">Contact</h2>
             <div className="mt-5 rounded-xl border bg-card text-card-foreground shadow">
               <p className="p-6 text-sm text-muted-foreground">
-                Best way to reach me is through:{" "} <br/> <br />
+                Best way to reach me is through:{" "} <br /> <br />
                 <strong>Email: </strong> <a href={`mailto:${aboutYou.email}`}>{aboutYou.email}</a> <br />
                 <strong>Mobile No: </strong> <a href={`tel:${aboutYou.mobile}`}>{aboutYou.mobile}</a> <br />
                 <strong>Github : </strong> <a href={aboutYou.github}>{aboutYou.github}</a> <br />

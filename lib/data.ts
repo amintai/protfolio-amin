@@ -149,6 +149,12 @@ export interface WorkExperience {
   years: string;
 }
 
+export interface Blogs {
+  title: string,
+  description: string,
+  link: string,
+  logo: string,
+}
 export const workExperiences: WorkExperience[] = [
   {
     company: "Tntra",
@@ -195,6 +201,15 @@ export const workExperiences: WorkExperience[] = [
     years: "2017-2021",
   },
 ];
+
+export const blogs:Blogs[] = [
+  {
+    title: 'Destucturing and Rest Operator in JS',
+    description: 'Object destructuring is a new syntax introduced in ES6, which allows for the creation of variables by extracting an object’s properties in a simplified way. This can be particularly useful when working with frameworks and libraries such as Angular, React, or Vue, where you will be using a lot of syntax for destructuring array of objects. ',
+    link: 'https://www.tntra.io/blog/destructuring-resting-and-spread-operators-in-javascript/',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433',
+  },
+]
 
 export const aboutYou = {
   name: "Amin Tai",
