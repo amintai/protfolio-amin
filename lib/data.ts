@@ -115,35 +115,30 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "1000Farmacie",
-    description: "JavaScript, Next JS, React Bootstrap, AWS, Git/Github, Stripe, Ruby on Rails, MySql",
-    link: "https://www.1000farmacie.it/",
-  },
-  {
-    title: "Diamond ERP ",
-    description: "React, Redux, AntD, Formik, TypeScript, Python, Django, PostgresSql",
+    title: "Ecommarce Pharmacy Store",
+    description: "Tech Stack: JavaScript, Next JS, React Bootstrap, AWS, Git/Github, Stripe, Ruby on Rails, MySql",
     link: "https://github.com/",
   },
   {
-    title: "Project 3",
-    description: "Give a short description about project 3",
+    title: "ERP Solution",
+    description: "Tech Stack: React, Redux, AntD, Formik, TypeScript, Python, Django, PostgresSql",
     link: "https://github.com/",
   },
   {
-    title: "Project 4",
-    description: "Give a short description about project 4",
-    link: "https://github.com/",
+    title: "Infonoblehse",
+    description: "Infonoblehse is Empowering a Sustainable Future Elevate workplace well-being, safety, and efficiency with our comprehensive solutions in Environmental Health, Fire Safety, and HR Payrolls.",
+    link: "https://infonoblehse.vercel.app/",
   },
   {
-    title: "Project 5",
-    description: "Give a short description about project 5",
-    link: "https://github.com/",
+    title: "Realtime Chat Application",
+    description: "Tech Stack: React, Node JS, Web Sockets, Socket.io, MongoDb, Express",
+    link: "https://amin-node-chat-app.herokuapp.com/",
   },
   {
-    title: "Project 6",
-    description: "Give a short description about project 6",
+    title: "Pokedex",
+    description: "Tech Stack: React, Redux, React Native, Open APIs, Axios",
     link: "https://github.com/",
-  },
+  }
 ];
 
 export interface WorkExperience {
@@ -167,7 +162,7 @@ export const workExperiences: WorkExperience[] = [
     Engaged in multiple projects, aiding colleagues in debugging and
     identifying root causes, actively contributing to the enhancement
     of existing code bases.`,
-    years: "Oct, 2021 - May, 2023",
+    years: "Oct, 2021- 2023",
   },
   {
     company: "Tntra",
@@ -191,13 +186,13 @@ export const workExperiences: WorkExperience[] = [
     company: "Babaria Institute Of Technology",
     logo: "/company-logo.png",
     position: "Student",
-    description: `Programming: Proficient in Python, [Other Languages]
+    description: `Programming: Proficient JavaScript, Java, Python etc.
     OOPs Concepts: Strong understanding and practical application
     Engineering Practices: Hands-on experience in real-world scenarios
     Networking and OS: In-depth knowledge of computer networks and operating systems
     Android Development: Skills in mobile app development
     `,
-    years: "Aug, 2017 - Sep, 2021",
+    years: "2017-2021",
   },
 ];
 
@@ -216,7 +211,7 @@ export const aboutYou = {
 export const logoText = "@amin";
 
 export const marketingHeadlines = {
-  mainHeadline: "Hi, I'm Amin Tai, React and React Native Developer",
+  mainHeadline: "Hi, I'm Amin Tai, Passionate Frontend Developer Expert in React",
   subHeadline: "I have 2.5 years of experience in JavaScript and it's Framworks.",
 };
 
