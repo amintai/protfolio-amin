@@ -20,12 +20,10 @@ export default function Navbar() {
     }))
 
 
-    if (path) {
-      window.scrollTo({
-        top: document.getElementById(path).offsetTop - 60,
-        behavior: 'smooth',
-      });
-    }
+    // window.scrollTo({
+    //   top: document.getElementById(path).offsetTop - 60,
+    //   behavior: 'smooth',
+    // });
   }
 
 
