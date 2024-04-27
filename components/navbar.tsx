@@ -17,13 +17,14 @@ export default function Navbar() {
     setState((state) => ({
       ...state,
       pathName: path
-    }))
+    }));
 
 
-    // window.scrollTo({
-    //   top: document.getElementById(path).offsetTop - 60,
-    //   behavior: 'smooth',
-    // });
+    let top = document.getElementById(pathName).offsetTop - 60 || 0;
+    window.scrollTo({
+      top: top,
+      behavior: 'smooth',
+    });
   }
 
 
