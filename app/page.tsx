@@ -38,7 +38,7 @@ export default function Home() {
               <Separator />
             </div>
             <div className="flex justify-between">
-              <ActionButton actionText="Hire me" />
+              <ActionButton actionText="About me" />
               <div className="space-y-1">
                 <h3 className="font-medium leading-none">
                   {aboutYou.yearsOfExperience}
