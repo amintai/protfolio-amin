@@ -19,10 +19,13 @@ export default function Navbar() {
       pathName: path
     }))
 
-    window.scrollTo({
-      top: document.getElementById(path).offsetTop - 60,
-      behavior: 'smooth',
-    });
+
+    if (path) {
+      window.scrollTo({
+        top: document.getElementById(path).offsetTop - 60,
+        behavior: 'smooth',
+      });
+    }
   }
 
 
