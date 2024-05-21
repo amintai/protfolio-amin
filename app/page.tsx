@@ -64,7 +64,6 @@ export default function Home() {
                   />
                 ))}
               </div>
-              <p className="text-xs text-muted-foreground">Tech stack</p>
             </div>
           </section>
           {/* Projects */}
