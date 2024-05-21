@@ -1,3 +1,5 @@
+"use client";
+
 import ActionButton from "@/components/action-button";
 import Navbar from "@/components/navbar";
 import ProjectShowcase from "@/components/project-showcase";

@@ -14,18 +14,21 @@ export default function Navbar() {
   });
 
   function navigateTo(path: string) {
+
     setState((state) => ({
       ...state,
       pathName: path
     }));
 
-
-    let top = document.getElementById(pathName).offsetTop - 60 || 0;
-    window.scrollTo({
-      top: top,
-      behavior: 'smooth',
-    });
+  router.push(`/#${path}`)    
+    // let element = document.getElementById(pathName);
+    // let top = element && element.offsetTop;
+    // window.scrollTo({
+    //   top: top,
+    //   behavior: 'smooth',
+    // });
   }
+
 
 
   return (
